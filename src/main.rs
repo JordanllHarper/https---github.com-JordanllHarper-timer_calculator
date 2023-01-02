@@ -5,6 +5,9 @@ use std::io;
 ///A simple project that works out timings for a meal
 ///Give instructions and how long they will take, ...
 /// ...and the program works out the order and how long to set timers to sync things up correctly
+/// 
+/// 
+/// Part of me learning Rust!
 fn main() {
 
 let mut instructions = extract_instructions(get_instruction_list());
